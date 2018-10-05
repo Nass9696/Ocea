@@ -97,202 +97,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /****************Utilities Class ****************/
-.border {
-  border-right: 1px solid rgb(229,229,229);
-  border-left:  1px solid rgb(229,229,229);
-  padding: 1em;
-}
-.grey {
-  color: rgb(229,229,229);
-}
-.white {
-  color: white;
-}
-.black {
-  color: black;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-}
-.buttonYellow {
-  padding: 0.5em;
-  padding-right: 1em;
-  padding-left: 1em;
-  background-color: yellow;
-  border: 2px solid yellow;
-  border-radius: 5px;
-}
-.buttonWhite {
-  padding: 1em;
-  background-color: white;
-}
-.borderR {
-  border-right: 1px solid grey;
-}
-.backgroundRose {
-  background-color: rgb(237, 0, 140);
-}
-.textCenter {
-  text-align: center;
-}
-.ColumnCenter {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-
 /****************Utilities Class ****************/
 
 /****************GENERAL RULES ****************/
-.liNoStyle{
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-input {
-  border: 0;
-}
-footer li {
-  list-style-type: none;
-}
-footer a {
-  color: white;
-}
 /****************GENERAL RULES****************/
 
 /********BAR FIXED*******/
-.BlockFix {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border-bottom: 1px solid rgb(229,229,229);
-  height: 7vh;
-  background-color: white;
-  z-index: 99999;
-}
-
-.icone {
-  width: 20%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.icone i {
-  margin-right: 1em;
-}
-
-.lab {
-  width: 35%;
-  display: flex;
-  justify-content: fle;
-  align-items: center;
-}
 /********BAR FIXED*******/
 
 /************************STAR HEADER***********************/
-nav {
-  margin-top: 5em;
-}
-nav ul {
-  display: flex;
-  align-items: center;
-}
-nav li {
-  margin-right: 1em;
-}
-
-nav a {
-  padding-right: 1em;
-  font-size: 12px;
-  color: black;
-}
-
-.Firstimg {
-  height: 90vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.firstText {
-  background-color: rgb(0,0,0,0.7);
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}
 /************************END HEADER***********************/
 
 /************************STAR MAIN***********************/
-.FirstSection {
-  width: 100%;
-  height: 54vh;
-  color: rgb(237, 0, 140);
-}
-
-.FirstSection h1 {
-  margin-top: 0;
-}
-.OceaSport {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.seven {
-  margin-top: 5px;
-}
-.seven, .cours, .velo, .fleche {
-  width: 25%;
-}
-.ButtonTest {
-  margin-top: 2em;
-  display: flex;
-  justify-content: center;
-}
-.ThirdSection {
-  font-size: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2em;
-  height: 70vh;
-}
-.blockArt {
-  width: 22%;
-}
-/***************BLOCK HORRAIRES**************/
-.BlockHoraires {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.horraires {
-  width: 20%;
-
-}
-.rendre {
-  width: 20%;
-}
-/***************BLOCK HORRAIRES**************/
-
-/************************END MAIN***********************/
+/************************STAR MAIN***********************/
 
 /************************STAR FOOTER***********************/
-.ContainerFooter {
-  background-color: grey;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  font-size: 12.75px;
-}
+
 /************************STAR FOOTER***********************/
 /* ==========================================================================
    Helper classes
