@@ -119,6 +119,9 @@ textarea {
   flex-direction: row;
   align-items: center;
 }
+.bold {
+  font-weight: bold;
+}
 .rowAround {
   display: flex;
   flex-direction: row;
@@ -272,11 +275,13 @@ nav a {
   width: 22%;
 }
 /***************BLOCK HORRAIRES**************/
-.horraires {
+.horaires {
+  background-color: green;
   width: 20%;
 
 }
 .rendre {
+  background-color: green;
   width: 20%;
 }
 /***************BLOCK HORRAIRES**************/
@@ -285,7 +290,6 @@ nav a {
 
 /************************STAR FOOTER***********************/
 .ContainerFooter {
-  align-items: center;
   background-color: grey;
   font-size: 12.75px;
 }
